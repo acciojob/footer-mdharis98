@@ -45,6 +45,8 @@ footer .media-icons a {
   margin-right: 15px;
   text-decoration: none;
   transition: 0.3s;
+	display:flex;
+	justify-content:space-between;
 	
 }
 
