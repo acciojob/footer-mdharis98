@@ -1,1 +1,116 @@
 /* your code here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #111;
+  color: #fff;
+}
+
+footer .content {
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px 30px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo-details .logo_name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+footer .media-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer .media-icons a:hover {
+  color: #007bff;
+}
+
+footer .link-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+footer .link-boxes ul {
+  list-style: none;
+}
+
+footer .link-boxes ul li {
+  margin: 10px 0;
+}
+
+footer .link-boxes ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+footer .link-boxes ul li a:hover {
+  color: #007bff;
+}
+
+footer .link-boxes .box .link_name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+footer .link-boxes .box .link_name::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 30px;
+  background-color: #007bff;
+}
+
+footer .bottom-details {
+  width: 100%;
+  background: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer .bottom-details .bottom_text span {
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+footer .bottom-details .bottom_text span a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer .bottom-details .bottom_text span a:hover {
+  text-decoration: underline;
+}
+
+footer .bottom-details .bottom_text .policy_terms a {
+  margin-left: 15px;
+}
